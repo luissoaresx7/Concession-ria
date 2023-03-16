@@ -1,0 +1,23 @@
+.final-container {
+    text-align: center;
+}
+.final-container h2 {
+    margin-bottom: 1rem;
+}
+.final-container p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.final-container h3{
+    margin: 1rem 0;
+}
+.final-container h4{
+    margin-bottom: 2rem;
+}
+.review-data {
+    text-align: left;
+}
+.review-data span {
+    font-weight: bold;
+}

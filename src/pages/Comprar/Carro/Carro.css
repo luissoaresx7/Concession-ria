@@ -1,0 +1,210 @@
+.corpo-carro-container{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+/* comprar */
+.carro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+.carro-img{
+    width: 1000px;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.carro-img-tag{
+    width: 70%;
+    border-radius: 1rem;
+}
+.carro-nome-preco{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.carro-modelo{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.carro-preco{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: chartreuse;
+}
+.carro-marca{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.carro-infos-container{
+    height: 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.carro-infos{
+    border: 1px solid #cacbcc;
+    height: 100%;
+    padding: 0 1rem;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.carro-infos br{
+    border-right: 10px solid #cacbcc;
+}
+.carro-infos span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-family: Roboto;
+    font-weight: 500;
+
+}
+.carro-infos span > svg{
+    font-size: 3rem;
+}
+.carro-botao{
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.3rem;
+    border: 1px solid darkgrey;
+    color: dimgray;
+    transition: 0.3s;
+}
+.carro-botao:hover{
+    transform: scale(1.025);
+    background-color: #e7e7e7;
+    border: 1px solid #3ca0e7;
+    color: #3ca0e7;
+}
+
+/* trocar */
+.card-trocar{
+    width: 400px;
+    background-color: #3ca0e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+}
+.troca-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+.troca-titulo{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+.troca-preco{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: chartreuse;
+}
+.troca-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.troca-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 0.2rem;
+    padding-top: 4rem;
+}
+.troca-form label{
+    color: #444;
+    font-weight: 300;
+    font-style: italic;
+}
+.troca-form input{
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 5px;
+    outline: 1px solid #444;
+    border: none;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.troca-form input::placeholder{
+    color: #cacbcc;
+}
+.trocar-botao{
+    margin-top: 5rem;
+    height: 4rem;
+    width: 100%;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.3rem;
+    border: 1px solid darkgrey;
+    color: dimgray;
+    transition: 0.3s;
+}
+.trocar-botao:hover{
+    transform: scale(1.025);
+    background-color: #e7e7e7;
+    border: 1px solid #3ca0e7;
+    color: #3ca0e7;
+}
+.troca-texto{
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .9rem;
+    font-weight: 300;
+}
+.troca-texto u{
+    cursor: pointer;
+}
+
+/* adm */
+.troca-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 120%;
+}
+.troca-unica-button{
+    margin-bottom: 5px;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 1rem;
+    border: 1px solid darkgrey;
+    color: dimgray;
+    transition: 0.3s;
+}
+.troca-unica-button:hover{
+    transform: scale(1.025);
+    background-color: #e7e7e7;
+    border: 1px solid #3ca0e7;
+    color: #3ca0e7;
+}

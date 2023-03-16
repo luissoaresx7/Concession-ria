@@ -1,0 +1,13 @@
+.divisao {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+.header{
+    flex: 0.1;
+}
+.corpo{
+    flex: 0.9;
+    height: 100%;
+}

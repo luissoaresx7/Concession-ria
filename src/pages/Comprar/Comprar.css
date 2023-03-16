@@ -1,0 +1,127 @@
+.corpoGrid{
+    width: 100%;
+}
+.comprarTitulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.comprarCarros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardCarros{
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+    background-image: linear-gradient(rgba(221, 247, 253, 0.4), rgba(186, 255, 255, 0.6), #3ca0e79c);
+    width: 300px;
+    height: 600px;
+    margin: 10px;
+    display: grid;
+    border-radius: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 0.5fr 1fr 0.5fr 1fr 1fr;
+}
+.dimgCarro{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    margin: 10px 30px 0;
+}
+.imgCarro{
+    width: 240px;
+    border-radius: 30%;
+}
+.cimaNomeCarro{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.cimaMarcaCarro{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    padding-left: 10px;
+}
+.meioPreco{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    display: flex;
+    padding-right: 10px;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+.meioKm{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    display: flex;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: flex-end;
+}
+.meioAno {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    display: flex;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+}
+.baixoLinkBotao{
+    grid-column: 1 / 3;
+    grid-row: 6 / 6;
+    width: 80%;
+    text-decoration: none;
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.linklink {
+    text-decoration: none;
+}
+.baixoBotao{
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 19px;
+    border: 1px solid darkgrey;
+    color: dimgray;
+}
+.baixoBotao:hover{
+    transform: scale(1.025);
+    background-color: #e7e7e7;
+    border: 1px solid #3ca0e7;
+    color: #3ca0e7;
+}
+.c-loader {
+    animation: rodando 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 50px;
+    width: 50px;
+}
+@keyframes rodando {
+    to {
+        transform: rotate(1turn);
+    }
+}

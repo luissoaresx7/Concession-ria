@@ -1,0 +1,27 @@
+.finalizador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.final-button{
+    width: 100%;
+}
+.finalizador button{
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 19px;
+    border: 1px solid darkgrey;
+    color: dimgray;
+    padding: 1rem;
+}
+.finalizador button:hover{
+    transform: scale(1.025);
+    background-color: #e7e7e7;
+    border: 1px solid #3ca0e7;
+    color: #3ca0e7;
+}

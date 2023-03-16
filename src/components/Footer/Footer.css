@@ -1,0 +1,29 @@
+.rodape{
+    background-color: #222;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.rodapeCima {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.rodapeCima span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.rodapeBaixo {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rodape span, .rodape a{
+    cursor: pointer;
+}
+.rodape span:hover{
+    color: gray;
+}
